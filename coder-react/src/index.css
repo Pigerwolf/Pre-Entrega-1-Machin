@@ -66,15 +66,3 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
-.element {
-  width: fit-content; /* Propiedad para navegadores compatibles */
-  width: -moz-fit-content; /* Propiedad para Firefox 3+ y Firefox para Android 4+ */
-}
-.element {
-  text-align: match-parent; /* Propiedad para Edge 79+ y Safari */
-  text-align: -webkit-match-parent; /* Propiedad para Safari y Safari en iOS */
-}
-.element {
-  -webkit-text-size-adjust: none; /* Propiedad no compatible */
-  text-size-adjust: none; /* Propiedad compatible con Chrome 54+, Chrome Android 54+, Edge 79+ */
-}
